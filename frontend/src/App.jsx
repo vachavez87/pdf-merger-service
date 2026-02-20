@@ -157,7 +157,8 @@ function App() {
       });
       formData.append('order', JSON.stringify(files.map((f) => f.id)));
 
-      const response = await axios.post('/api/merge', formData, {
+      const apiUrl = import.meta.env.VITE_API_URL || '';
+      const response = await axios.post(`${apiUrl}/api/merge`, formData, {
         responseType: 'blob',
         headers: {
           'Content-Type': 'multipart/form-data',
