@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: 'https://pdf-merger-service-1.onrender.com',
+  origin: ['https://pdf-merger-service-1.onrender.com', 'http://localhost:5173'],
   credentials: true
 }));
 app.use(express.json());

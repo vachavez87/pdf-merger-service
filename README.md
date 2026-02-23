@@ -12,6 +12,8 @@ A modern, full-stack web application for merging PDF documents and images into a
   <img src="frontend/assets/markmap.svg" width="800"/>
 </p>
 
+![Markmap](https://raw.githubusercontent.com/vachavez87/pdf-merger-service/main/frontend/assets/markmap.svg)
+
 ## ✨ Features
 
 - 🎯 **Drag & Drop Upload** - Upload multiple PDFs and images simultaneously
