@@ -8,7 +8,7 @@
 
 A modern, full-stack web application for merging PDF documents and images into a single PDF file with an intuitive drag-and-drop interface. Perfect for invoicing, document management, and batch processing workflows.
 
-![Demo Screenshot](https://via.placeholder.com/800x400/1e293b/38bdf8?text=PDF+Invoice+Merger+Demo)
+![Demo Screenshot](./frontend/assets/markmap.svg)
 
 ## ✨ Features
 
