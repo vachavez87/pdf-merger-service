@@ -1,6 +1,3 @@
-Here's the complete README.md file code:
-
-```markdown
 # 📄 PDF Invoice Merger
 
 [![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=node.js)](https://nodejs.org/)
