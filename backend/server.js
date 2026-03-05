@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: ['https://pdf-merger-service-1.onrender.com', 'http://localhost:5173'],
+  origin: ['https://pdf-merger-service-1.onrender.com', 'http://localhost:5173', 'https://denys-image-pdf-combiner.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
@@ -175,4 +175,5 @@ app.use((error, req, res, next) => {
 app.listen(PORT, () => {
   console.log(`🚀 PDF Merger Server running on http://localhost:${PORT}`);
   console.log(`📁 Uploads directory: ${uploadsDir}`);
+
 });
